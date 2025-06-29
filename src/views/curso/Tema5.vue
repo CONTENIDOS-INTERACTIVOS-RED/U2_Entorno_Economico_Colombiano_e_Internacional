@@ -104,7 +104,7 @@
 
 <script>
 export default {
-  name: 'Tema2',
+  name: 'Tema5',
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

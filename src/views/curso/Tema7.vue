@@ -96,7 +96,10 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema7/7.png', alt='')
 
-
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
 
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
@@ -120,8 +123,185 @@
 </template>
 
 <script>
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
-  name: 'Tema2',
+  name: 'Tema7',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Herramientas colaborativas para la construcción de paz',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              '¿Cuál de los siguientes componentes no forma parte del Producto Interno Bruto (PIB)?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Gasto público',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Inversión',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Exportaciones brutas',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Consumo',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto:
+              '¿Qué tipo de inflación se caracteriza por aumentos de precios extremadamente altos en un corto período?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Inflación moderada',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Inflación estructural',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Hiperinflación',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Inflación importada',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto:
+              '¿Cuál es una de las funciones principales del Fondo Monetario Internacional (FMI)?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Vigilar los acuerdos de libre comercio',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Emitir billetes para los países miembros',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto:
+                  'Otorgar asistencia financiera a países con desequilibrios externos',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Regular el comercio agrícola internacional',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto: '¿Cuál es una causa común del desempleo estructural?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto:
+                  'Desajuste entre las habilidades de los trabajadores y las necesidades del mercado',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Baja rotación laboral',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Falta de vacaciones remuneradas',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Aumento de la demanda de bienes',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto:
+              '¿Cuál de los siguientes instrumentos pertenece a la política monetaria?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Política arancelaria',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Tasa de interés de intervención',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Presupuesto de inversión pública',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Subsidios al consumo',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
@@ -130,4 +310,7 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>

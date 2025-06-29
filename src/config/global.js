@@ -187,36 +187,6 @@ export default {
         ],
       },
       {
-        nombreRuta: 'tema8',
-        icono: 'far fa-file-alt',
-        numero: '8',
-        titulo:
-          'Impacto de los acuerdos de libre comercio en la economía colombiana',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '8.1',
-            titulo: 'Principales TLC firmados por Colombia',
-            hash: 't_8_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '8.2',
-            titulo:
-              'Efectos positivos del libre comercio: inversión y exportaciones',
-            hash: 't_8_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '8.3',
-            titulo:
-              'Efectos negativos: competencia externa y sectores vulnerables',
-            hash: 't_8_3',
-          },
-        ],
-      },
-      {
         nombreRuta: 'sintesis',
         titulo: 'Síntesis',
         desarrolloContenidos: true,
