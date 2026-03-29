@@ -74,7 +74,7 @@
       .p-4.p-md-5
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/9cqLwqWDCzs?si=F1b2M6SlLRnGqFf9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/RBwZ7i98jGo?si=s4I_QfBfs5e57AMT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     #t_4_2.titulo-segundo(data-aos="flip-up")
       h2 #[span 4.2] Política monetaria: control de la oferta monetaria e instrumentos del banco central
@@ -88,7 +88,7 @@
             h2.mb-4(data-aos="flip-up") Política monetaria: control de la oferta monetaria e instrumentos del banco central
             p.mb-4(data-aos="fade-right") En el PDF <b>Política monetaria</b>, se explican los principales mecanismos utilizados por los bancos centrales —como la tasa de interés, las operaciones de mercado abierto y el encaje bancario— y su impacto sobre el consumo, la inversión y los precios. Este documento proporciona fundamentos esenciales para comprender cómo se gestiona el dinero en una economía y cómo estas decisiones influyen directamente en el bienestar de la población.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto

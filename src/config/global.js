@@ -240,58 +240,8 @@ export default {
     },
     {
       referencia:
-        'Eggers, F. G. (2018). Economía: (ed.). Ituzaingó, Editorial Maipue. Recuperado de  ',
-      link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/145751?page=94.',
-    },
-    {
-      referencia:
-        'Cue Mancera, A. (2015). Fundamentos de economía: ( ed.). Grupo Editorial Patria.   ',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/39385?page=1 ',
-    },
-    {
-      referencia:
-        'Eggers, F. G. (2018). Economía: (ed.). Ituzaingó, Editorial Maipue. Recuperado de ',
-      link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/145751?page=94. ',
-    },
-    {
-      referencia:
         'Burneo, K. (2016). Principios de economía: versión latinoamericana: (2 ed.). Ecoe Ediciones.  ',
       link: 'https://elibro.net/es/ereader/tecnologicadeloriente/70446?page=1',
-    },
-    {
-      referencia:
-        'Burneo, K. (2016). Principios de economía: versión latinoamericana: (2 ed.). Ecoe Ediciones.   ',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/70446?page=1 ',
-    },
-    {
-      referencia:
-        'Cue Mancera, A. (2015). Fundamentos de economía: ( ed.). Grupo Editorial Patria.  ',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/39385?page=1',
-    },
-    {
-      referencia:
-        'Eggers, F. G. (2018). Economía: (ed.). Ituzaingó, Editorial Maipue. Recuperado de   ',
-      link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/145751?page=94.',
-    },
-    {
-      referencia:
-        'Eggers, F. G. (2018). Economía: (ed.). Ituzaingó, Editorial Maipue. Recuperado de   ',
-      link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/145751?page=94.',
-    },
-    {
-      referencia:
-        'Hernández Pérez, A. & Hernández Pérez, A. (2014). Economía: ( ed.). Editorial Digital UNID.  ',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/41178?page=1',
-    },
-    {
-      referencia:
-        'Eggers, F. G. (2018). Economía: (ed.). Ituzaingó, Editorial Maipue. Recuperado de   ',
-      link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/145751?page=94.',
     },
     {
       referencia:

@@ -33,7 +33,7 @@
             h2.mb-4(data-aos="flip-up") Concepto y objetivos de los acuerdos de libre comercio
             p.mb-4(data-aos="fade-right") En el PDF <b>Concepto y objetivos de los acuerdos de libre comercio</b>, se exploran las definiciones, beneficios y propósitos de estos tratados, destacando su papel en la eliminación de barreras comerciales, la atracción de inversión extranjera y la mejora de la competitividad. Este material ofrece una comprensión clara de cómo los TLC contribuyen al desarrollo económico y fortalecen las relaciones internacionales.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_6.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -86,7 +86,7 @@
             h2.mb-4(data-aos="flip-up") Ventajas y desventajas del libre comercio en el contexto colombiano
             p.mb-4(data-aos="fade-right") En el PDF <b>Ventajas y desventajas del libre comercio en el contexto colombiano</b>, se presentan los beneficios en términos de acceso a mercados, inversión y competitividad, así como los desafíos asociados a la competencia externa y la vulnerabilidad de ciertos sectores locales. Este material invita a reflexionar de forma crítica sobre el impacto real de los tratados comerciales en el desarrollo del país.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_7.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto

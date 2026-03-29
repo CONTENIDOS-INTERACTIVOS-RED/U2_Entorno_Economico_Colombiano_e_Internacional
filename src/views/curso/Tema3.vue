@@ -123,7 +123,7 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=MW9Y5Pc_aC " target="_blank" rel="noopener noreferrer") Economía en Cuarentena. (2020a, 4 de mayo). Inflación: Causas y Desempleo vs. Inflación [Vídeo]. YouTube.  
+              a(href="https://www.youtube.com/watch?v=MW9Y5Pc_aCg" target="_blank" rel="noopener noreferrer") Economía en Cuarentena. (2020a, 4 de mayo). Inflación: Causas y Desempleo vs. Inflación [Vídeo]. YouTube.  
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

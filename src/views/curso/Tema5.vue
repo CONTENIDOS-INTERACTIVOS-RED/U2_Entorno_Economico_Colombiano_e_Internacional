@@ -33,7 +33,7 @@
             h2.mb-4(data-aos="flip-up") Definición, tipos y función de la tasa de interés en la economía
             p.mb-4(data-aos="fade-right") En el PDF <b>Definición tipos y función</b>, se analizan sus distintas formas, su impacto sobre la actividad económica y su papel como herramienta de política monetaria. Este recurso permite comprender cómo las tasas influyen tanto en los mercados como en la vida cotidiana, facilitando una gestión financiera más informada y estratégica.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_4.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto

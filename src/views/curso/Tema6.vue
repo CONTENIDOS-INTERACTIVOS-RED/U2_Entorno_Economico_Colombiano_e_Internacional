@@ -66,7 +66,7 @@
             h2.mb-4(data-aos="flip-up") Fondo Monetario Internacional y el Banco Mundial
             p.mb-4(data-aos="fade-right") En el PDF <b>Fondo Monetario Internacional y el Banco Mundial</b>, se presentan los orígenes, objetivos y funciones de estas dos instituciones creadas en Bretton Woods, destacando sus roles diferenciados en la estabilidad monetaria y el desarrollo económico. Este documento ofrece una visión clara de su impacto en la política económica mundial y en la respuesta frente a las crisis globales.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_5.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto

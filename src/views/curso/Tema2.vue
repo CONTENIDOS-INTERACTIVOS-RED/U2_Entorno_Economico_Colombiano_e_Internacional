@@ -83,7 +83,7 @@
             h2.mb-4(data-aos="flip-up") Consecuencias de la inflación sobre la economía y la población 
             p.mb-4(data-aos="fade-right") En el PDF <b>Consecuencias de la inflación sobre la economía y la población</b>, se analizan los efectos que este fenómeno tiene sobre el poder adquisitivo, la inversión, el ahorro, el empleo y la estabilidad macroeconómica. Este documento ofrece una visión integral para comprender por qué controlar la inflación es esencial para garantizar el desarrollo y la equidad social.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
